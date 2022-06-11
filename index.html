@@ -7,12 +7,13 @@
 
    <title>My Cat's Achievements</title>
 
+   <link rel="stylesheet" href="normalize-8.0.1.css" />
    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
    <header>
-      <h1 class="title">A Southie J. Pinkerton Appreciation Page</h1>
+      <h1 id="mainHeading" class="title">A Southie J. Pinkerton Appreciation Page</h1>
       <p class="subtitle">
          A site generated in appreciation and love for my cat, who is the bane of my existance.
       </p>
@@ -29,11 +30,14 @@
    </nav>
 
    <main id="stories">
-      <h2>Some of My Cat's Greatest Accomplishments</h2>
+      <h2 class="title">Some of My Cat's Greatest Accomplishments</h2>
+      <p class="subtitle">
+         My cat has achieved many great things over his 11 years. These are just some of the highlights.
+      </p>
 
       <article>
-         <h3>Founded Herverd University</h3>
-         <p>
+         <h3 class="title">Founded Herverd University</h3>
+         <p id="testP">
             My cat, Southie, founded a college. That's not a typo--my cat, an orange tabby, is the
             founder and first president of Herverd University. I know what you're thinking: How can
             a cat found a university? Aren't colleges typically founded by people?
@@ -53,7 +57,7 @@
       </article>
 
       <article>
-         <h3>Wrote a Best Selling Children's Series</h3>
+         <h3 class="title">Wrote a Best Selling Children's Series</h3>
          <p>
             One day, my cat woke me up by scratching my face and jumping on my head. After rolling
             out of bed, I made my way to the kitchen where I found him perched atop a pile of
@@ -75,7 +79,7 @@
       </article>
 
       <article>
-         <h3>Owner and Opperator of Southie's Just Pickles, and More!</h3>
+         <h3 class="title">Owner and Opperator of Southie's Just Pickles, and More!</h3>
          <p>
             When asked who the most successful business owner in Marietta, Ohio is, most people
             would not say a cat, but they would be wrong. The cat in question, Southie J. Pinkerton,
@@ -111,7 +115,7 @@
       </article>
 
       <article>
-         <h3>Mayor of the Dumpster Behind the Philadelphia Ikea</h3>
+         <h3 class="title">Mayor of the Dumpster Behind the Philadelphia Ikea</h3>
          <p>
             This is the true story of how my cat became the mayor of a town and what that means for
             us.
@@ -149,7 +153,11 @@
       </article>
    </main>
 
-   <footer>&copy; Southie Designs 2022</footer>
+   <footer>
+      <p>
+         &copy; Southie Designs 2022
+      </p>
+   </footer>
 </body>
 
 </html>

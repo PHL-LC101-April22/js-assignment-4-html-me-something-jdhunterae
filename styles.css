@@ -1,1 +1,112 @@
-/* Write your CSS here! */
+/**
+ * Whole document styles
+ **/
+body {
+  display: block;
+  margin: 8px;
+}
+
+#mainHeading {
+  color: red;
+}
+
+#testP {
+  color: green;
+}
+
+.title {
+  font-family: cursive;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/**
+ * Header styles
+ **/
+header {
+  text-align: center;
+  background-color: burlywood;
+  height: 150px;
+}
+
+header > h1 {
+  padding-top: 30px;
+}
+
+header > p {
+  color: white;
+}
+
+/**
+ * Nav styles
+ **/
+nav > ul {
+  float: right;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 7px;
+}
+
+nav > ul > li > a {
+  color: saddlebrown;
+}
+
+.active-page {
+  color: grey;
+  text-decoration: none;
+}
+
+/**
+ * Main Content
+ **/
+main {
+  clear: both;
+  padding: 0 50px;
+}
+
+/**
+ * Article content styles
+ **/
+article {
+  background-color: blanchedalmond;
+  padding: 25px 50px;
+  margin: 25px auto;
+}
+
+article > h1,
+article > h2,
+article > h3,
+article > h4 {
+  text-align: center;
+}
+
+article > figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+article > figure > img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/**
+ * Article content styles
+ **/
+footer {
+  text-align: center;
+  background-color: burlywood;
+  height: 75px;
+}
+footer > p {
+  padding-top: 45px;
+}
